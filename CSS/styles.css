@@ -1,0 +1,262 @@
+input[type=text]{
+	width: 300px;
+	height: 30px;
+    border: 2px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid;
+}
+body{
+	margin: 0px;
+}
+/*header*/
+.backg {
+	background-image: url('../img/capa2.jpg');
+	height: 700px;
+	position: relative;
+	background-position: center;
+	position: relative;
+	width: 100%;
+	top:-18px;
+}
+.header-b{
+	width: ;
+	height: 170px;
+	position: relative;
+	background-color: white;
+	opacity: .8;
+	top: 550px;
+}
+.container {
+	margin: 0px;
+}
+.header{
+	width:200px ;
+	height: 100px;
+	background-color: #000;
+	color: white;
+	border: 20px;
+}
+.box-background { /*isso é para personalizar a caixa e eu não entendi pq não colocar isso na classe boxbaner a caixa*/
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .8;
+	position: relative;
+}
+.box-banner-title { /* isso é para alterar o texto da caixa*/
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	color: #FFF;
+	padding-top: 20px;
+}
+.box-baner {/* isso cria aquela caixa pq esta dentro do backg e ele é o elemento que se baseia para o right e bottom*/
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	position: absolute;
+	right: 100px;
+	bottom: 250px;
+}
+.box-info{
+    color: #000;
+    padding-left: 10%;
+    padding-top: 0.5%;
+}
+.bemv {
+	font-size:25px;
+}
+.age{
+	font-size: 35px;
+}
+.dese{
+	font-size: 21px;
+}
+/*serviços gerenciamento*/
+.servicesgrre{/*bloco de gerenciamento de projeto*/
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	background-color:skyblue ;
+	border-radius:20px ;
+}
+.servicesger{/*edicao do texto gererenciar*/
+	font-size: 22px;
+	color: whitesmoke;
+	padding-top: 50px;
+	font-family: sans-serif;
+}
+.cont-serv{/*posicionar o bloco gerenciamento*/
+	margin: 70px 175px;
+
+}
+.servicetext{
+	font-size: 20px;
+	color: black;
+	color:skyblue ;
+}
+.text1{
+	left:400px;
+	top: 780px;
+	position: absolute;
+}
+.servicetext{
+	font-family: sans-serif;
+}
+.text{
+	position: absolute;
+	left:400px;
+	top: 820px;
+}
+.tetxger{
+	font-size: 17px;
+	text-align: left;
+}
+/*serviços desenvolvimento*/
+.servicesdev{
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	background-color:blueviolet ;
+	border-radius:20px ;
+}
+.servicesdese{
+	font-size: 22px;
+	color: whitesmoke;
+	padding-top: 60px;
+	font-family: sans-serif;
+}
+.text2{
+	left:400px;
+	top: 1005px;
+	position: absolute;
+}
+.devtext{
+	font-size: 20px;
+	color: black;
+	color:blueviolet ;
+	font-family: sans-serif;
+}
+.text3{
+	position: absolute;
+	left:400px;
+	top: 1045px;
+}
+.tetxdev{
+	font-size: 17px;
+	text-align: left;
+}
+/*serviços design*/
+.servicesdesi{
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	background-color:#66ccff ;
+	border-radius:20px ;
+}
+.servicesdis{
+	font-size: 22px;
+	color: whitesmoke;
+	padding-top: 60px;
+	font-family: sans-serif;
+}
+.desitext{
+	font-size: 20px;
+	color: black;
+	color:#66ccff ;
+	font-family: sans-serif;
+}
+.text4{
+	position: absolute;
+	left:400px;
+	top: 1230px;
+}
+.text5{
+	position: absolute;
+	left:400px;
+	top: 1270px;
+}
+.tetxdesi{
+	font-size: 17px;
+	text-align: left;
+}
+/*footer*/
+.img-fo{
+	background-image: url('../img/rodape.jpg');
+	position: relative;
+	background-position: center;
+	width: 100%;
+	height: 900px;
+}
+/*box do servidor, segurança e aplicativo*/
+.box1{
+	width: 320px;
+	height: 250px;
+	background-color:whitesmoke ;
+	opacity: .9;
+	margin-top: 60px;
+	position: relative;
+}
+.box1text{
+	top: 110px;
+	position: absolute;
+	text-align: center;
+}
+.icon{
+	padding-top: 20px;
+	font-size: 60px;
+	line-height: 22px;
+	color: #888;
+	text-align: center;
+}
+.boxpos{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 9%;
+	margin-right: -4%;
+}
+/*Formulario para contato*/
+.boxform{
+	position: absolute;
+	width: 800px;
+	height: 400px;
+	background-color: whitesmoke;
+	opacity: .8;
+	margin: 100px;
+}
+.nome{
+	width: 60px;
+	margin: 40px;
+}
+
+}
+.email{
+	margin: 40px;
+}
+.mens{
+	margin: 40px;
+}
+/*Botão*/
+.botpos{
+	margin-left: 400px;
+	top: -70px;
+	position: relative;
+}
+.botaost{
+	height: 50px;
+	width: 100px;
+	font-size: 18px;
+	color: #fff;
+	background-color: black;
+	opacity:.-2;
+}
+.botaost:hover {
+	height: 50px;
+	width: 100px;
+	font-size: 18px;
+	color: #fff;
+	background-color: whitesmoke;
+	opacity:.-2;
+	color: black  ;
+}
